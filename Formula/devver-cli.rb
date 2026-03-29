@@ -7,14 +7,14 @@ class DevverCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Devver-Inc/cli/releases/download/v0.0.2/devver-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "5351e6424c7aa02bc35555d535941e17f668ca7d769af9c26fa265c4f18fcf65"
+      sha256 "12d7db4413e7bdcca2186a6faa5ff02025ca527dee06459343e8739b604abff2"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/Devver-Inc/cli/releases/download/v0.0.2/devver-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "54e7b9c423c00d44e05ac1f0c30583a07a2fd633182e5f359ed08e54903dea54"
+      sha256 "db897978fcdb343c6014189bac50d7f63c86bfed76f3bb7198a6b2973aa3fbbf"
     end
   end
 
