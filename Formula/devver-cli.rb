@@ -1,20 +1,20 @@
 class DevverCli < Formula
   desc "Deploy and try your app in seconds"
   homepage "https://github.com/Devver-Inc/cli"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Devver-Inc/cli/releases/download/v0.0.3/devver-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "5edd1ba42aa0431440a1fbbc5a5ffc3f3dc494ae64286549f01cd1ee7ceb73f8"
+      url "https://github.com/Devver-Inc/cli/releases/download/v0.0.4/devver-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "dc19bac8be8eb694edb995bc665d9f75ecab62a98d4c3181187abb71dd7937f3"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Devver-Inc/cli/releases/download/v0.0.3/devver-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cad1e658281c443cb78e573db39387913cb0e9903bf0aecdf841a313a33af30a"
+      url "https://github.com/Devver-Inc/cli/releases/download/v0.0.4/devver-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "163d095a4faf01ce7c84b71fbe1b61bf7a07a1c7535d7adb27263e94ca5dfa88"
     end
   end
 
